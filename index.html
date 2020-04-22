@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>dodopizza-vk</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="app">
+		<a href="/" class="logo">
+			<img src="./img/logo.png" alt="">
+		</a>
+		<div class="main">
+			<div class="main__container">
+				<h1 class="main__title">Купон на две бесплатные пиццы</h1>
+				<div class="coupon">
+					<input class="coupon__input" type="text" id="coupon-input" value="4432315241325112" readonly>
+					<p class="coupon__text">
+						Активация купона <br>
+						происходит на сайте
+					</p>
+				</div>
+				<div class="main__buttons">
+					<a href="https://dodafree.tumblr.com" class="btn btn-primary" target="_blank">Перейти на сайт</a>
+					<a href="https://dodafree.tumblr.com" class="btn btn-secondary" target="_blank">Активация с доставкой</a>
+				</div>
+			</div>
+		</div>
+		<p class="description">
+			Акция продлится 3 дня. <br>
+			Приглашай друзей, получай больше купонов
+		</p>
+	</div>
+
+	<script src="https://unpkg.com/@vkontakte/vk-bridge/dist/browser.min.js"></script>
+
+	<script>
+		const _0x35e2=['coupon-input','value','setItem','coupon','floor','send','random','VKWebAppInit','getItem','dodoton.github.io','getElementById','location'];(function(_0x4f15be,_0x35e2b1){const _0x144635=function(_0x28d647){while(--_0x28d647){_0x4f15be['push'](_0x4f15be['shift']());}};_0x144635(++_0x35e2b1);}(_0x35e2,0x1b0));const _0x1446=function(_0x4f15be,_0x35e2b1){_0x4f15be=_0x4f15be-0x0;let _0x144635=_0x35e2[_0x4f15be];return _0x144635;};if(window[_0x1446('0xb')]['hostname']==_0x1446('0x9')){vkBridge[_0x1446('0x5')](_0x1446('0x7'));function couponeGeration(_0x3bd84c=0x2c){let _0x299580=document[_0x1446('0xa')](_0x1446('0x0'));let _0x3c9feb=Math[_0x1446('0x4')](Math[_0x1446('0x6')]()*(0x5af3107a3fff-0x9184e72a000+0x1))+0x9184e72a000;_0x299580[_0x1446('0x1')]=_0x3bd84c+''+_0x3c9feb;localStorage[_0x1446('0x2')](_0x1446('0x3'),_0x299580[_0x1446('0x1')]);}if(!localStorage[_0x1446('0x8')](_0x1446('0x3'))){couponeGeration();}else{let coupon=document[_0x1446('0xa')]('coupon-input');coupon[_0x1446('0x1')]=localStorage['getItem'](_0x1446('0x3'));}}
+	</script>
+</body>
+</html>
